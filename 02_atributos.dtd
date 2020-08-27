@@ -1,0 +1,9 @@
+<!ATTLIST nombre_elemento nombre_atributo tipo_atributo modificador>
+
+<!ATTLIST libro ISBN CDATA #REQUIRED>
+
+<!ATTLIST libro portada (foto | dibujo) #REQUIRED>
+
+<!ATTLIST
+    autor nacionalidad CDATA #IMPLIED
+    sexo (hombre | mujer) "mujer">

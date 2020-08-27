@@ -1,0 +1,18 @@
+<!DOCTYPE nodo_raiz SYSTEM "fichero.dtd">
+
+
+<!DOCTYPE nodo_raiz PUBLIC
+    "-//OASIS//DTD Libro XML//EN"
+    "../dtds/cap.dtd">
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE capitulo
+  [<!ELEMENT capitulo (titulo, apartado+)>
+   <!ELEMENT titulo (#PCDATA)>
+   <!ELEMENT apartado (#PCDATA)>
+  ]>
+<capitulo>
+  <titulo>Introducción</titulo>
+  <apartado>Primeros pasos con DTDs.</apartado>
+</capitulo>

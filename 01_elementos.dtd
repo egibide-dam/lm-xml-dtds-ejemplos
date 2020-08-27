@@ -1,0 +1,29 @@
+<!ELEMENT nombre_elemento tipo_elemento>
+
+<!ELEMENT libro (titulo, autor, capitulo)>
+<!ELEMENT libro (titulo | autor | capitulo)>
+<!ELEMENT libro (titulo | autor | capitulo)+ >
+<!ELEMENT libro (titulo, autor, (fotografia|dibujo), capitulo)+ >
+
+<!ELEMENT cualquiera ANY>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT img EMPTY>
+
+<!ELEMENT sexo (mujer | hombre)>
+<!ELEMENT parrafo (#PCDATA | lineas)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT capitulo (#PCDATA)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ELEMENT dibujo (#PCDATA)>
+
+<!ELEMENT mujer (#PCDATA)>
+<!ELEMENT hombre (#PCDATA)>
+<!ELEMENT lineas (#PCDATA)>
+
+<!ELEMENT libro (titulo, autor+, capitulo+, apartados*, CD?)>
+
+<!ELEMENT apartados (#PCDATA)>
+<!ELEMENT CD (#PCDATA)>
+

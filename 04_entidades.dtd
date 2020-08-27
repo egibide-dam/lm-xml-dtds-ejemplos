@@ -1,0 +1,20 @@
+<!ENTITY nombre_entidad "datos">
+
+<!ENTITY nombre_entidad SYSTEM "datos.txt">
+
+<!ENTITY nombre_entidad PUBLIC "datos.txt">
+
+<!ENTITY ley SYSTEM "LeyProteccionDeDatos.txt">
+
+<!ENTITY % nombre_entidad "datos">
+
+%nombre_entidad;
+
+
+<!ENTITY % coches "(FIAT | SEAT | AUDI | CITROEN)*">
+<!ELEMENT concesionario (familiares | turismos | deportivos)*>
+<!ELEMENT familiares %coches;>
+<!ELEMENT turismos %coches;>
+<!ELEMENT deportivos %coches;>
+
+
