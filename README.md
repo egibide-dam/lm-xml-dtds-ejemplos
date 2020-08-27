@@ -1,2 +1,3 @@
-# lm-xml-dtds-ejemplos
+# Lenguajes de marcas
+
 Ejemplos sobre DTDs.
